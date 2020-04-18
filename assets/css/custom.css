@@ -1,0 +1,80 @@
+
+/** ADD YOUR AWESOME CODES HERE **/
+img.logo {
+  max-width: 150px;
+}
+
+img.logo-banner {
+  width: 50px;
+  position: absolute;
+    left: 110px;
+    top: -20px;
+    z-index: -1;
+    /* height: 595.2px; */
+    width: 100px;
+}
+
+h1.brand-title {
+  font-size: 6rem;
+}
+
+h2.welcome {
+  color: #ffffff;
+  font-size: 2.3rem;
+  font-weight: 600;
+}
+
+.text-shadow {
+  text-shadow:5px 5px 10px black;
+}
+
+span.float-right {
+  float: right;
+}
+
+#bestil {
+  color: white;
+}
+div.menu-box {
+  background-image: url('../images/menu-bg.jpg');
+  line-height: 1;
+}
+
+div.menu-bg {
+  background-color: white;
+  padding-top: 2rem;
+}
+
+th.wd10 {
+  width: 10%;
+}
+
+th.wd70 {
+  width: 70%;
+}
+
+/*Responsive device smaller than 768p*/
+@media (max-width: 768px) {
+  h1.brand-title {
+    font-size: 3.5rem;
+  }
+  h2.welcome {
+    font-size: 1.5rem;
+  }
+
+  .navbar-collapse {
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-collaps {
+    padding-top: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-area {
+    justify-content: space-around;
+  }
+}
