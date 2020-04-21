@@ -1,5 +1,11 @@
 
 /** ADD YOUR AWESOME CODES HERE **/
+p, a, td, th, .domain-name {
+  letter-spacing: 0.02rem;
+}
+ul.bullet, li.li-bullet {
+  list-style: disc;
+}
 img.logo {
   max-width: 150px;
 }
@@ -10,12 +16,17 @@ img.logo-banner {
     left: 110px;
     top: -20px;
     z-index: -1;
-    /* height: 595.2px; */
     width: 100px;
 }
 
+.nav-item.activ {
+  font-weight: 700;
+}
+
 h1.brand-title {
+  font-family: 'Cabin', sans-serif;
   font-size: 6rem;
+  color: #ffffff;
 }
 
 h2.welcome {
@@ -37,12 +48,16 @@ span.float-right {
 }
 div.menu-box {
   background-image: url('../images/menu-bg.jpg');
-  line-height: 1;
+  line-height: 1.25;
 }
 
 div.menu-bg {
   background-color: white;
   padding-top: 2rem;
+}
+
+.category-btn {
+  margin-top: 2rem;
 }
 
 th.wd10 {
@@ -53,28 +68,128 @@ th.wd70 {
   width: 70%;
 }
 
+.fnt-wth500 {
+  font-weight: 500;
+}
+
+.bestil-menu-btn {
+  display: none;
+}
+
+.banner {
+  background-image: url('../images/banner.jpg');
+  background-position: right 50% bottom 50%;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 50%;
+}
+
+.banner-text {
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.banner-contact {
+  top: -20px;
+}
+
+img.banner {
+  z-index: 3;
+  max-width: 100%;
+}
+
+.line-break-lg {
+  max-width: 100%;
+}
+
+.line-break-sm {
+  display: none;
+}
+
+.domain-name {
+  font-size: 1rem;
+  padding: 0 1rem;
+}
+
+.special-offer button{
+  width: fit-content;
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 14px;
+    background: #CD4A4C;
+    padding: 12px 40px;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+
+}
+.offer-btn {
+  box-shadow: none;
+}
+
+p.remark {
+  font-size: 0.8rem;
+  line-height: 2;
+}
+
 /*Responsive device smaller than 768p*/
 @media (max-width: 768px) {
   h1.brand-title {
+    font-family: 'Cabin', sans-serif;
     font-size: 3.5rem;
   }
   h2.welcome {
     font-size: 1.5rem;
   }
-
   .navbar-collapse {
     padding-top: 1rem;
+  }
+  .gallery-box {
+    padding: 40px 0px;
+  }
+  .about-section-box {
+    padding: 40px 0px;
+  }
+  .line-break-sm {
+    display: block;
+    max-width: 100%;
+  }
+  .line-break-lg {
+    display: none;
   }
 }
 
 @media (max-width: 992px) {
   .navbar-collaps {
     padding-top: 1rem;
+  } 
+  .bestil-menu-btn {
+    display: block;
+    margin: 1.5rem 0;
+  }
+  .bestil-menu-btn a {
+    padding: 0.5rem 1rem;
+  }
+  .special-offer button {
+    font-size: 12px;
+    padding: 8px 20px;
+    margin-top: 2rem;
   }
 }
 
 @media (min-width: 1024px) {
   .footer-area {
     justify-content: space-around;
+  }
+  .banner {
+    background-position: right 50% bottom 70%;
+  }
+  .banner-slides {
+    margin-top: 2rem;
+  }
+  .line-break-sm {
+    display: none;
   }
 }
