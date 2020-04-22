@@ -161,7 +161,7 @@ p.remark, .remark {
     display: none;
   }
   .qt-background{
-    background-attachment: scroll;
+    background-attachment: inherit;
   }
 }
 
