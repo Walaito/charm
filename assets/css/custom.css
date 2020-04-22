@@ -160,9 +160,6 @@ p.remark, .remark {
   .line-break-lg {
     display: none;
   }
-  .qt-background{
-    background-attachment: inherit;
-  }
 }
 
 @media (max-width: 992px) {
