@@ -349,7 +349,7 @@ button:focus{
 
 .qt-background{
 	background: url(../images/banner.jpg) no-repeat;
-	background-size: auto;
+	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
 	background-position: center center;

@@ -46,6 +46,7 @@ span.float-right {
 #bestil {
   color: white;
 }
+
 div.menu-box {
   background-image: url('../images/menu-bg.jpg');
   line-height: 1.25;
@@ -158,6 +159,9 @@ p.remark, .remark {
   }
   .line-break-lg {
     display: none;
+  }
+  .qt-background{
+    background-attachment: scroll;
   }
 }
 
